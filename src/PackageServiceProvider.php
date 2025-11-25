@@ -26,7 +26,7 @@ final class PackageServiceProvider extends ServiceProvider
     public function registerComponents()
     {
         // Blade components work
-        Blade::component($prefix . 'button', Button::class);
+        Blade::component('button', Button::class);
 
         // Livewire components don't
 
