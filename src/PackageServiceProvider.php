@@ -30,7 +30,7 @@ final class PackageServiceProvider extends ServiceProvider
 
         // Livewire components don't
 
-        // If you uncomment the following line, the error becomes 
+        // If you uncomment the following line, the error changes 
         //Blade::anonymousComponentPath(__DIR__.'/Views/Components');
         Livewire::addComponent(
             name: 'counter',
