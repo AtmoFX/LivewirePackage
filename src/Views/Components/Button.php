@@ -4,7 +4,7 @@ namespace AtmoFX\Views\Components;
 
 use Illuminate\View\Component;
 
-class ThemeToggle extends Component
+class Button extends Component
 {
     public string $type       = 'classic';
     public string $lightTheme = 'light';
