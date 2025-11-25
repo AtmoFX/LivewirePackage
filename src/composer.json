@@ -1,0 +1,22 @@
+{
+    "name": "atmofx/livewire-package",
+    "require": {
+        "livewire/livewire": "^4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AtmoFX\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AtmoFX\\PackageServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+    }
+}
