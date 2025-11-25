@@ -23,8 +23,8 @@ class Button extends Component
             x-data
             @click="alert('Button clicked!')"
         >
-            {{ $slot }
-        </button>}
+            {{ $slot }}
+        </button>
         HTML;
     }
 }
