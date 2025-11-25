@@ -1,12 +1,12 @@
 <?php
  
-namespace AllYouNeed\AdvancedControls;
+namespace AtmoFX;
  
 use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\ServiceProvider;
 use Livewire\Livewire;
 
-use AllYouNeed\AdvancedControls\Views\Components\Button;
+use AtmoFX\Views\Components\Button;
  
 final class PackageServiceProvider extends ServiceProvider
 {
